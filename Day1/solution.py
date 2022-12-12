@@ -20,7 +20,6 @@ def load_data(f: str):
 if __name__ == "__main__":
     sorted_list = load_data(INPUT_FILE)
     sorted_list.sort()
-    #print(sorted_list)
 
     print(str(sorted_list[-1]) + "\n")
 
