@@ -1,7 +1,7 @@
 INPUT_FILE = "input.txt"
 
 def load_data(f: str):
-    data_input = open(INPUT_FILE, "r")
+    data_input = open(f, "r")
     current_sum = 0
     sums = []
 
